@@ -2,7 +2,7 @@ import React from "react";
 import { useFormStatus } from "react-dom";
 import { FaPaperPlane } from "react-icons/fa";
 
-const submitButton = () => {
+const SubmitButton = () => {
   const { pending } = useFormStatus();
 
   return (
@@ -23,4 +23,4 @@ const submitButton = () => {
   );
 };
 
-export default submitButton;
+export default SubmitButton;
