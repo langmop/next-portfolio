@@ -28,7 +28,7 @@ const Contact = () => {
       id="contact"
     >
       <SectionHeading>Contact Me</SectionHeading>
-      <p className="text-gray-700 -mt-3">
+      <p className="text-gray-700 mt-3 dark:text-white">
         Please contact me directly at{" "}
         <a type="email" href="mailto:mishragaurav656">
           mishragaurav656@gmail.com
@@ -46,7 +46,7 @@ const Contact = () => {
         className="mt-10 flex flex-col mx-4"
       >
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:text-black dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           type="email"
           name="email"
           id="email"
@@ -55,7 +55,7 @@ const Contact = () => {
           maxLength={500}
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:text-black dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
           id="message"
           placeholder="Your Message"
