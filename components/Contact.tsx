@@ -46,7 +46,7 @@ const Contact = () => {
         className="mt-10 flex flex-col mx-4"
       >
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:text-black dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:text-black dark:focus:bg-opacity-100 transition-all dark:outline-none"
           type="email"
           name="email"
           id="email"
@@ -55,7 +55,7 @@ const Contact = () => {
           maxLength={500}
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:text-black dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:text-black dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
           id="message"
           placeholder="Your Message"

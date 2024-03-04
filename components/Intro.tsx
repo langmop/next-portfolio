@@ -27,7 +27,7 @@ const Intro = ({ portfolioData }: { portfolioData: PortfolioData }) => {
   } = portfolioData;
 
   return (
-    <section ref={ref} id="home" className="scroll-mt-52">
+    <section ref={ref} id="home" className="scroll-mt-52 mb-64">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div

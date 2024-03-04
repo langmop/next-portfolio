@@ -23,7 +23,6 @@ export default async function Home() {
   return (
     <main className="flex flex-col items-center justify-center">
       <Intro portfolioData={portfolioData} />
-      <SectionDivider />
       <About about={portfolioData?.about} />
       <Projects projects={portfolioData?.projects} />
       <Skills skills={portfolioData?.skills} />
